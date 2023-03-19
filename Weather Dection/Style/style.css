@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background: linear-gradient(to top, blue, rgb(255, 0, 212));
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    bottom: 25px;
+    z-index: 1000;
+}
+
+.location {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.description , .temperature {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.temps > span {
+    padding: 5px 10px;
+}
+
+#map { 
+    height: 610px;
+}
+
+
+
+
